@@ -21,6 +21,7 @@ public class UserController {
 	@RequestMapping(value = "/update", method = RequestMethod.PUT, consumes = MediaType.APPLICATION_JSON_VALUE)
 	public String updateUserDetails(@RequestBody UserDTO user){
 		LOG.info("Updating user: " + user.getFirstName() + " " + user.getLastName());
+		LOG.info("\"Updating user: \" + user.getFirstName() + \" \" + user.getLastName()")
 		return "SUCCESS";
 	}
 	
