@@ -21,8 +21,9 @@ public class UserController {
 	@RequestMapping(value = "/update", method = RequestMethod.PUT, consumes = MediaType.APPLICATION_JSON_VALUE)
 	public String updateUserDetails(@RequestBody UserDTO user){
 		LOG.info("Updating user: " + user.getFirstName() + " " + user.getLastName());
-		LOG.info("\"Updating user: \" + user.getFirstName() + \" \" + user.getLastName()")
-		LOG.info("Log created in Phase2 Sprint1 Story1 - hotfix for April")
+		LOG.info("\"Updating user: \" + user.getFirstName() + \" \" + user.getLastName()");
+		LOG.info("Second hotfix for April 2019");
+		LOG.info("Log created in Phase2 Sprint1 Story1 - hotfix for April");
 		return "SUCCESS";
 	}
 	
