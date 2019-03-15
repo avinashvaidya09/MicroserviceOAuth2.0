@@ -22,7 +22,7 @@ public class UserController {
 	public String updateUserDetails(@RequestBody UserDTO user){
 		LOG.info("Updating user: " + user.getFirstName() + " " + user.getLastName());
 		LOG.info("\"Updating user: \" + user.getFirstName() + \" \" + user.getLastName()")
-		LOG.info("Log created in Phase2 Sprint1 Story1")
+		LOG.info("Log created in Phase2 Sprint1 Story1 - hotfix for April")
 		return "SUCCESS";
 	}
 	
